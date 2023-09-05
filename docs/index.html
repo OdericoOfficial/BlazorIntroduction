@@ -5,7 +5,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
     <title>oderico_official</title>
-    <base href="/BlazorIntroduction/" />
+    <base href="/" />
     <link href="_content/Masa.Blazor/css/masa-blazor.min.css" rel="stylesheet" />
     <link href="css/bootstrap/bootstrap.min.css" rel="stylesheet" />
     <link href="https://cdn.masastack.com/npm/@mdi/font@7.1.96/css/materialdesignicons.min.css" rel="stylesheet">
@@ -31,12 +31,6 @@
         <a href="" class="reload">Reload</a>
         <a class="dismiss">🗙</a>
     </div>
-    <script>
-        var base = document.getElementsByTagName('base')[0];
-        if (window.location.hostname=='localhost') {
-            base.setAttribute('href', '/');
-        } 
-    </script>
     <script src="_framework/blazor.webassembly.js"></script>
     <script src="_content/BlazorComponent/js/blazor-component.js"></script>
     <script src="https://cdn.masastack.com/npm/echarts/5.1.1/echarts.min.js"></script>
